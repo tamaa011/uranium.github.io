@@ -242,9 +242,9 @@ form.example button:hover {
 .text-bottom {
     position: absolute;
     bottom: 26%;
-    left: 1px;
+    left: 15px;
     background-color: var(--primaryOne);
-    width: 100%;
+    width: 92%;
     text-align: center;
 }
 .text-bottom i {
@@ -259,8 +259,9 @@ form.example button:hover {
 }
 .text-bottom p {
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    font-size: 10px
 }
 .text-bottom span {
     color: var(--primaryFour);
