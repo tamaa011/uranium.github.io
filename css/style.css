@@ -362,6 +362,11 @@ form.example button {
 form.example button:hover {
   background-color: var(--primaryOne);
 }
+.rent .card {
+    width: 90%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
 .rent .card img {
     height: 200px;
 }
