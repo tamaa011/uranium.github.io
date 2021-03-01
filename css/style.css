@@ -50,6 +50,7 @@ body {
 /*end navbar*/
 
 /*start header*/
+
 .text {
     position: absolute;
     top: 30%;
@@ -61,17 +62,23 @@ body {
     transform-origin: 0 0;
     font-size: 12px;
 }
-.text .fa-arrow-down {
-    display: none;
-}
 
 .text-bottom {
+/*
     position: absolute;
     bottom: 8.6%;
     right: 5.7%;
     background-color: var(--primaryOne);
     width: 28%;
     text-align: center;
+*/
+    position: relative;
+    float: right;
+    top: -4.3em;
+    background-color: var(--primaryOne);
+    right: -2em;
+    z-index: 200;
+    width: 33%
 }
 .text-bottom i {
     margin-left: 25px;
@@ -238,14 +245,18 @@ form.example button:hover {
     font-size: 12px;
     display: none;
 }
+    .text .fa-arrow-down {
+        display: none;
+    }
 
 .text-bottom {
-    position: absolute;
-    bottom: 28%;
-    left: 15px;
+    position: relative;
+    float: right;
+    top: -3.1em;
     background-color: var(--primaryOne);
-    width: 92%;
-    text-align: center;
+    right: -0.1em;
+    z-index: 200;
+    width: 100%
 }
 .text-bottom i {
     margin-left: 25px;
@@ -359,12 +370,13 @@ form.example button:hover {
 }
 
 .text-bottom {
-    position: absolute;
-    bottom: 23.4%;
-    right: 0%;
+    position: relative;
+    float: right;
+    top: -4.3em;
     background-color: var(--primaryOne);
-    width: 70%;
-    text-align: center;
+    right: -2em;
+    z-index: 200;
+    width: 60%
 }
 .text-bottom i {
     margin-left: 25px;
