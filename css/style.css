@@ -241,7 +241,7 @@ form.example button:hover {
 
 .text-bottom {
     position: absolute;
-    bottom: 30%;
+    bottom: 26%;
     left: 1px;
     background-color: var(--primaryOne);
     width: 100%;
