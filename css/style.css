@@ -91,7 +91,6 @@ body {
 .text-bottom span {
     color: var(--primaryFour);
 }
-
 .header img {
     left: 141px;
     position: relative;
@@ -215,7 +214,7 @@ form.example button:hover {
 
 
 /* Some media queries for responsiveness */
-@media screen and (max-width: 500px) {
+@media  screen and (max-width: 600px) {
     .header img {
     left: 1px;
     width: 100%;
@@ -235,14 +234,14 @@ form.example button:hover {
     left: 7.5%;
 }
 .header .text .scroll {
-    margin-top: 35%;
+    margin-top: 38%;
     font-size: 12px;
     display: none;
 }
 
 .text-bottom {
     position: absolute;
-    bottom: 42%;
+    bottom: 30%;
     left: 1px;
     background-color: var(--primaryOne);
     width: 100%;
