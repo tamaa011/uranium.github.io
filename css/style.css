@@ -305,6 +305,83 @@ form.example button:hover {
 
 /*end rent*/
 
+/*start how it work*/
+.work {
+    margin-top: 5%;
+}
+.work .work-h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.work .work-p {
+    width: 340px;
+    line-height: 1.9;
+    word-break: normal;
+    font-weight: bold;
+}
+.work .work-card {
+    position: relative;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.33);
+    overflow: hidden
+}
+.work .work-num-h1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 140px;
+    top: -33%;
+    left: -9%;
+    color: var(--primaryFour);
+}
+.work .work-text-h4 {
+    margin-top: 40%;
+    margin-bottom: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.work .work-text-p {
+    margin-bottom: 7%;
+    font-size: 12px;
+    color: var(--primaryFour);
+}
+.work .work-text-find {
+    margin-bottom: 40px;
+}
+.work .line {
+    content:'';
+    display:inline-block;
+    width:94px;  
+    border-bottom: 3px solid var(--primaryThree);
+    position: absolute;
+    bottom: 8%;
+}
+.work .line2 {
+    content:'';
+    display:inline-block;
+    width:120px;  
+    border-bottom: 3px solid var(--primaryFour);
+    position: absolute;
+    bottom: 8%;
+}
+.work .line3 {
+    content:'';
+    display:inline-block;
+    width:94px;  
+    border-bottom: 3px solid var(--primaryFour);
+    position: absolute;
+    bottom: 8%;
+}
+.work .active {
+    background-color: var(--primaryOne);
+    color: var(--primaryThree);
+}
+.work .active h1 {
+    color: var(--primaryThree);
+}
+.work .active p {
+    color: var(--primaryThree);
+}
+/*end how it work*/
 
 /* Some media queries for responsiveness */
 @media  screen and (max-width: 600px) {
@@ -526,6 +603,85 @@ form.example button:hover {
 }
 
 /*rent*/
+/*start how it work*/
+.work {
+    margin-top: 8%;
+}
+.work .work-h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.work .work-p {
+    width: 340px;
+    line-height: 1.9;
+    word-break: normal;
+    font-weight: bold;
+}
+.work .work-card {
+    position: relative;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.33);
+    overflow: hidden;
+    margin-bottom: 20%;
+}
+.work .work-num-h1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 140px;
+    top: -35%;
+    left: -16%;
+    color: var(--primaryFour);
+}
+.work .work-text-h4 {
+    margin-top: 70%;
+    margin-bottom: 10%;
+    font-size: 9px;
+    font-weight: bold;
+}
+.work .work-text-p {
+    margin-bottom: 7%;
+    font-size: 8px;
+    color: var(--primaryFour);
+}
+.work .work-text-find {
+    margin-bottom: 40px;
+}
+.work .line {
+    content:'';
+    display:inline-block;
+    width:94px;  
+    border-bottom: 3px solid var(--primaryThree);
+    position: absolute;
+    bottom: 8%;
+}
+.work .line2 {
+    content:'';
+    display:inline-block;
+    width:120px;  
+    border-bottom: 3px solid var(--primaryFour);
+    position: absolute;
+    bottom: 8%;
+}
+.work .line3 {
+    content:'';
+    display:inline-block;
+    width:94px;  
+    border-bottom: 3px solid var(--primaryFour);
+    position: absolute;
+    bottom: 8%;
+}
+.work .active {
+    background-color: var(--primaryOne);
+    color: var(--primaryThree);
+}
+.work .active h1 {
+    color: var(--primaryThree);
+}
+.work .active p {
+    color: var(--primaryThree);
+}
+/*end how it work*/
+
 }
 /*end header*/
 
@@ -747,6 +903,84 @@ form.example button:hover {
 }
 
 /*rent*/
+/*start how it work*/
+.work {
+    margin-top: 5%;
+}
+.work .work-h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.work .work-p {
+    width: 340px;
+    line-height: 1.9;
+    word-break: normal;
+    font-weight: bold;
+}
+.work .work-card {
+    position: relative;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.33);
+    overflow: hidden;
+    margin-bottom: 20%;
+}
+.work .work-num-h1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 140px;
+    top: -33%;
+    left: -9%;
+    color: var(--primaryFour);
+}
+.work .work-text-h4 {
+    margin-top: 40%;
+    margin-bottom: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.work .work-text-p {
+    margin-bottom: 7%;
+    font-size: 12px;
+    color: var(--primaryFour);
+}
+.work .work-text-find {
+    margin-bottom: 40px;
+}
+.work .line {
+    content:'';
+    display:inline-block;
+    width:94px;  
+    border-bottom: 3px solid var(--primaryThree);
+    position: absolute;
+    bottom: 8%;
+}
+.work .line2 {
+    content:'';
+    display:inline-block;
+    width:120px;  
+    border-bottom: 3px solid var(--primaryFour);
+    position: absolute;
+    bottom: 8%;
+}
+.work .line3 {
+    content:'';
+    display:inline-block;
+    width:94px;  
+    border-bottom: 3px solid var(--primaryFour);
+    position: absolute;
+    bottom: 8%;
+}
+.work .active {
+    background-color: var(--primaryOne);
+    color: var(--primaryThree);
+}
+.work .active h1 {
+    color: var(--primaryThree);
+}
+.work .active p {
+    color: var(--primaryThree);
+}
+/*end how it work*/
 
 }
 @media only screen and (min-width: 768px) {
@@ -1309,18 +1543,18 @@ form.example button:hover {
     font-weight: bolder;
     color: var(--primaryFour);
     line-height: 46px;
-    font-size: 25px;
+    font-size: 30px;
 }
 /*stat*/
 
 /*rent*/
 .rent .stat-h1 {
     word-break: normal;
-    width: 300px;
+    width: 350px;
     font-weight: bolder;
     color: var(--primaryFour);
     line-height: 46px;
-    font-size: 25px;
+    font-size: 30px;
 }
 .rent .card {
     max-width: 90%;
@@ -1331,7 +1565,7 @@ form.example button:hover {
     height: 250px;
 }
 .rent .card h4 {
-    font-size: 9px;
+    font-size: 17px;
     margin-left: 5px;
     margin-bottom: 20px;
 }
@@ -1554,7 +1788,7 @@ form.example button:hover {
     height: 250px;
 }
 .rent .card h4 {
-    font-size: 9px;
+    font-size: 17px;
     margin-left: 5px;
     margin-bottom: 20px;
 }
