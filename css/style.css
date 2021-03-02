@@ -564,6 +564,78 @@ form.example button:hover {
     color: var(--primaryThree);
 }
 /*end add */
+
+/*start footer*/
+footer {
+    background-color: var(--primaryFour);
+    margin-top: 5%;
+}
+.footer-h1 {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+}
+.edit-two {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+    margin-top: -5px;
+}
+footer .example {
+    margin-top: 8%;
+    margin-left: 90px;
+}
+footer form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 250px;
+    background: var(--primaryThree);
+    outline: none;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: var(--secondaryOne);
+}
+footer hr {
+    border: 1px solid var(--primaryThree);
+}
+footer .footer-head-p {
+    color: var(--primaryThree);
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .footer-sub-p {
+    color: var(--primaryThree);
+    font-size: 10px;
+    font-weight: bold;
+    word-break: normal;
+    width: 100px;
+    line-height: 2;
+}
+footer .li-name {
+    font-size: 13px;
+    color: var(--secondaryOne);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px;
+     color: var(--primaryThree);
+}
+footer ul li a{
+     color: var(--primaryThree);
+}
+footer ul li a:hover {
+     color: var(--primaryThree);
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*end footer*/
 /* Some media queries for responsiveness */
 @media  screen and (max-width: 600px) {
 /*navbar*/
@@ -1045,6 +1117,76 @@ form.example button:hover {
     color: var(--primaryThree);
 }
 /*end add */
+    
+.footer-h1 {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+}
+.edit-two {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+    margin-top: -5px;
+}
+footer .example {
+    margin-top: 8%;
+    margin-left: 0px;
+}
+footer form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 250px;
+    background: var(--primaryThree);
+    outline: none;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: var(--secondaryOne);
+    margin-bottom: 10px;
+}
+footer hr {
+    border: 1px solid var(--primaryThree);
+}
+footer .footer-head-p {
+    color: var(--primaryThree);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+footer .footer-sub-p {
+    color: var(--primaryThree);
+    font-size: 10px;
+    font-weight: bold;
+    word-break: normal;
+    width: 100%;
+    line-height: 2;
+    text-align: center;
+}
+footer .li-name {
+    font-size: 13px;
+    color: var(--secondaryOne);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px;
+     color: var(--primaryThree);
+}
+footer ul li a{
+     color: var(--primaryThree);
+}
+footer ul li a:hover {
+     color: var(--primaryThree);
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*end footer*/
 }
 
 @media only screen and (min-width: 600px) {
@@ -1471,6 +1613,75 @@ form.example button:hover {
     color: var(--primaryThree);
 }
 /*end add */
+.footer-h1 {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+}
+.edit-two {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+    margin-top: -5px;
+}
+footer .example {
+    margin-top: 8%;
+    margin-left: 0px;
+}
+footer form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 250px;
+    background: var(--primaryThree);
+    outline: none;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: var(--secondaryOne);
+    margin-bottom: 10px;
+}
+footer hr {
+    border: 1px solid var(--primaryThree);
+}
+footer .footer-head-p {
+    color: var(--primaryThree);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+footer .footer-sub-p {
+    color: var(--primaryThree);
+    font-size: 10px;
+    font-weight: bold;
+    word-break: normal;
+    width: 100%;
+    line-height: 2;
+    text-align: center;
+}
+footer .li-name {
+    font-size: 13px;
+    color: var(--secondaryOne);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px;
+     color: var(--primaryThree);
+}
+footer ul li a{
+     color: var(--primaryThree);
+}
+footer ul li a:hover {
+     color: var(--primaryThree);
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*end footer*/
 }
 @media only screen and (min-width: 768px) {
 /*navbar*/
@@ -1800,6 +2011,78 @@ form.example button:hover {
     color: var(--primaryThree);
 }
 /*end add */
+/*start footer*/
+footer {
+    background-color: var(--primaryFour);
+    margin-top: 5%;
+}
+.footer-h1 {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+}
+.edit-two {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+    margin-top: -5px;
+}
+footer .example {
+    margin-top: 1%;
+    margin-left: 0px;
+}
+footer form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 250px;
+    background: var(--primaryThree);
+    outline: none;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: var(--secondaryOne);
+}
+footer hr {
+    border: 1px solid var(--primaryThree);
+}
+footer .footer-head-p {
+    color: var(--primaryThree);
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .footer-sub-p {
+    color: var(--primaryThree);
+    font-size: 10px;
+    font-weight: bold;
+    word-break: normal;
+    width: 100%;
+    line-height: 2;
+    text-align: center;
+}
+footer .li-name {
+    font-size: 13px;
+    color: var(--secondaryOne);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px;
+     color: var(--primaryThree);
+}
+footer ul li a{
+     color: var(--primaryThree);
+}
+footer ul li a:hover {
+     color: var(--primaryThree);
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*end footer*/
 }
 
 @media only screen and (min-width: 992px) {
@@ -2130,6 +2413,79 @@ form.example button:hover {
     color: var(--primaryThree);
 }
 /*end add */
+    
+/*start footer*/
+footer {
+    background-color: var(--primaryFour);
+    margin-top: 5%;
+}
+.footer-h1 {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+}
+.edit-two {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+    margin-top: -5px;
+}
+footer .example {
+    margin-top: 8%;
+    margin-left: 90px;
+}
+footer form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 250px;
+    background: var(--primaryThree);
+    outline: none;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: var(--secondaryOne);
+}
+footer hr {
+    border: 1px solid var(--primaryThree);
+}
+footer .footer-head-p {
+    color: var(--primaryThree);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left
+}
+footer .footer-sub-p {
+    color: var(--primaryThree);
+    font-size: 10px;
+    font-weight: bold;
+    word-break: normal;
+    width: 100px;
+    line-height: 2;
+}
+footer .li-name {
+    font-size: 13px;
+    color: var(--secondaryOne);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px;
+     color: var(--primaryThree);
+}
+footer ul li a{
+     color: var(--primaryThree);
+}
+footer ul li a:hover {
+     color: var(--primaryThree);
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*end footer*/
 }
 @media only screen and (min-width: 1200px) {
     /*navbar*/
@@ -2476,6 +2832,77 @@ form.example button:hover {
     color: var(--primaryThree);
 }
 /*end add */
+/*start footer*/
+footer {
+    background-color: var(--primaryFour);
+    margin-top: 5%;
+}
+.footer-h1 {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+}
+.edit-two {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+    margin-top: -5px;
+}
+footer .example {
+    margin-top: 8%;
+    margin-left: 90px;
+}
+footer form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 250px;
+    background: var(--primaryThree);
+    outline: none;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: var(--secondaryOne);
+}
+footer hr {
+    border: 1px solid var(--primaryThree);
+}
+footer .footer-head-p {
+    color: var(--primaryThree);
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .footer-sub-p {
+    color: var(--primaryThree);
+    font-size: 10px;
+    font-weight: bold;
+    word-break: normal;
+    width: 100px;
+    line-height: 2;
+}
+footer .li-name {
+    font-size: 13px;
+    color: var(--secondaryOne);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px;
+     color: var(--primaryThree);
+}
+footer ul li a{
+     color: var(--primaryThree);
+}
+footer ul li a:hover {
+     color: var(--primaryThree);
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*end footer*/
 }
 @media only screen and (min-width: 1600px) {
     /*navbar*/
@@ -2820,4 +3247,75 @@ form.example button:hover {
     color: var(--primaryThree);
 }
 /*end add */
+/*start footer*/
+footer {
+    background-color: var(--primaryFour);
+    margin-top: 5%;
+}
+.footer-h1 {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+}
+.edit-two {
+    word-break: normal;
+    font-weight: bolder;
+    color: var(--primaryThree);
+    font-size: 25px;
+    margin-top: -5px;
+}
+footer .example {
+    margin-top: 8%;
+    margin-left: 90px;
+}
+footer form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 250px;
+    background: var(--primaryThree);
+    outline: none;
+    font-family: FontAwesome;
+    font-size: 15px;
+    color: var(--secondaryOne);
+}
+footer hr {
+    border: 1px solid var(--primaryThree);
+}
+footer .footer-head-p {
+    color: var(--primaryThree);
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .footer-sub-p {
+    color: var(--primaryThree);
+    font-size: 10px;
+    font-weight: bold;
+    word-break: normal;
+    width: 100px;
+    line-height: 2;
+}
+footer .li-name {
+    font-size: 13px;
+    color: var(--secondaryOne);
+}
+
+footer ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 10px;
+     color: var(--primaryThree);
+}
+footer ul li a{
+     color: var(--primaryThree);
+}
+footer ul li a:hover {
+     color: var(--primaryThree);
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*end footer*/
 }
